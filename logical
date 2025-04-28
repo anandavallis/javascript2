@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting</title>
+</head>
+<body>
+
+    <script>
+let age = 20;
+let idProof = true;
+
+// Logical &&AND checks both conditions
+if (age >= 18 && idProof) {
+  console.log("Allowed"); 
+} else {
+  console.log("Not Allowed");  
+}
+
+
+// Logical ||OR checks if either condition is true
+
+let a = 16;
+let hasGuardian = true;
+
+if (age >= 18 || hasGuardian) {
+  console.log("Allowed");
+} else {
+  console.log("Not Allowed");
+}
+
+// Logical !NOT checks if either condition is true
+let isAllowed = true;
+console.log(!isAllowed); 
+
+    </script>
+
+</body>
+</html
