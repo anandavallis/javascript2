@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //camel_Case
+        let employeeName = "David";
+let employeeAge = 30;
+let isEmployeeActive = true;
+let employeeSalary = 50000;
+
+console.log("\nCamel_Case:");
+console.log("Employee Name:", employeeName);
+console.log("Employee Age:", employeeAge);
+console.log("Is Employee Active:", isEmployeeActive);
+console.log("Employee Salary:", employeeSalary);
+
+
+       //Under_Score_Case 
+      
+let employee_name = "David";
+let employee_age = 30;
+let is_employee_active = true;
+let employee_salary = 50000;
+
+console.log("\nUnder_Score_Case:");
+console.log("Employee Name:", employee_name);
+console.log("Employee Age:", employee_age);
+console.log("Is Employee Active:", is_employee_active);
+console.log("Employee Salary:", employee_salary);
+
+    </script>
+</body>
+</html>
