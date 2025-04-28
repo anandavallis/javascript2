@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10th Mark</title>
+</head>
+<body>
+    <script>
+         let tamil = 90;
+         let english = 85;
+         let maths = 95;
+         let science = 88;
+         let social = 92;
+
+    let totalMarks = tamil + english + maths + science + social;
+    let average = totalMarks / 5;
+
+     console.log("Tamil:", tamil);
+     console.log("English:", english);
+     console.log("Maths:",maths);
+     console.log("Science:",science);
+     console.log("Social:",social);
+     console.log("Total Marks:",totalMarks);
+     console.log("Average:",average);
+    </script>
+</body>
+</html>
