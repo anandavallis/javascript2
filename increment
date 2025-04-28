@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print and Modify</title>
+</head>
+<body>
+    <script>
+        let name = "Anandavalli";
+        let age = 22;
+        let isStudent = true;
+        console.log("Initial Values:");            // Print value
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("Is Student:", isStudent);
+
+
+        name = "Ananth";                     // Modify value
+        age++; 
+        isStudent = !isStudent; 
+        console.log("\nModified Values:");   // Print modified values
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("Is Student:", isStudent);
+
+
+
+
+
+
+</script>
+</body>
+</html>
