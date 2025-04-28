@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Rectangle</title>
+</head>
+<body>
+    <script>
+        let length = 10;
+        let width = 5;
+        let area = rectangleArea(length, width);     
+
+    function rectangleArea(length, width) {
+    let area = length * width;
+    return area;
+}
+console.log("The area of the rectangle with length " + length + " and width " + width + " is " + area);
+
+
+
+    </script>
+</body>
+</html>
